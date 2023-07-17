@@ -1,0 +1,20 @@
+li {
+    display: inline-block;
+    padding: 0.5% 2%;
+}
+li:not(:last-child) {
+    border-right: 2px solid black;
+}
+
+ul #navList {
+    list-style-type: none;
+
+}
+nav {
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.hideLink { 
+    color: inherit; 
+    text-decoration: none;
+} 
