@@ -8,13 +8,20 @@ li:not(:last-child) {
 
 ul #navList {
     list-style-type: none;
-
 }
 nav {
     border: 3px solid black;
     border-radius: 10px;
+    margin: 0% 20%;
+
 }
 .hideLink { 
     color: inherit; 
     text-decoration: none;
 } 
+header h1 {
+    text-align: center;
+}
+body { 
+    margin-left: 5%;
+}
